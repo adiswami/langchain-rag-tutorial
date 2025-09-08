@@ -1,9 +1,19 @@
-langchain
-langchain-community
-langchain-core
-langchain-openai
-langchain-huggingface
-python-dotenv
-streamlit
-sentence-transformers
-pypdf
+# Core LangChain packages
+langchain>=0.2.12
+langchain-core>=0.2.34
+langchain-community>=0.2.12
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.2.2
+langchain-huggingface>=0.0.3
+
+# OpenAI client (new v1 API)
+openai>=1.40.0
+
+# Hugging Face embeddings
+sentence-transformers>=2.7.0
+
+# Streamlit for the UI
+streamlit>=1.36.0
+
+# Utilities
+python-dotenv>=1.0.1
