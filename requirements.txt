@@ -6,6 +6,9 @@ langchain-openai>=0.2.0
 langchain-text-splitters>=0.2.2
 langchain-huggingface>=0.0.3
 
+# LangGraph
+langgraph>=0.2.35
+
 # OpenAI client (new v1 API)
 openai>=1.40.0
 
@@ -17,3 +20,10 @@ streamlit>=1.36.0
 
 # Utilities
 python-dotenv>=1.0.1
+
+# Web document loading
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+lxml>=5.2.2
+
+
